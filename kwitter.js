@@ -1,4 +1,4 @@
-function addAuser() {
+function adduser() {
     user_name = document.getElementById("user_name").value;
 
     localStorage.setItem("Username",user_name);
